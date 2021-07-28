@@ -20,11 +20,30 @@ console.log(firstName + " " + familyName);*/
 
 // 03 Deklaration + Wertzuweisung
 
-let firstName,familyName;
-firstName = prompt("Bitte Vorname eingeben:");
-familyName = prompt("Bitte Familyname eingeben:");
-console.log(firstName);
-console.log(familyName);
-console.log("Hallo " + firstName + " " + familyName +"!");
+//let firstName,familyName;
+//firstName = prompt("Bitte Vorname eingeben:");
+//familyName = prompt("Bitte Familyname eingeben:");
+//console.log(firstName);
+//console.log(familyName);
+//console.log("Hallo " + firstName + " " + familyName +"!");
+
+let test;
+test = "hi";
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
+test = 2;
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
+
+test = -2;
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
+
+test = true;
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
+
+
 
 
