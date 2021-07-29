@@ -27,6 +27,7 @@ console.log(firstName + " " + familyName);*/
 //console.log(familyName);
 //console.log("Hallo " + firstName + " " + familyName +"!");
 
+/**My version ------
 let test;
 test = "hi";
 console.log("Datentyp: " + typeof test);
@@ -42,7 +43,24 @@ console.log("Inhalt: " + test);
 test = true;
 
 console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+console.log("Inhalt: " + test);*/
+
+let agejohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+let year = 2021;
+ageJohn = 25;
+ageMark = 30;
+
+//Operation Differenz
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);
+
+
+
 
 
 
